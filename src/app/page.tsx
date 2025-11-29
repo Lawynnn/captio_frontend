@@ -1,7 +1,12 @@
+import Title from "@/components/Title";
+
 export default function Home() {
     return (
-        <div>
-            <span>Home page</span>
-        </div>
+        <>
+            <Title title="Home Page" />
+            <div>
+                <span>Home page</span>
+            </div>
+        </>
     );
 }
